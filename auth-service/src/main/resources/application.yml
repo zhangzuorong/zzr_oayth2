@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-auth
+server:
+  port: 5000
+  context-path: /uaa
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka/ #注册中心地址
+security:
+  oauth2:
+    resource:
+      filter-order: 3
