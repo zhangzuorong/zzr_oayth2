@@ -15,7 +15,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * 版权：山东海豚数据技术有限公司
  * <p>
  * WebSecurityConfig
- *
+ * WebSecurityConfigurerAdapter是默认情况下spring security的http配置
  * @author zzr
  * @created Create Time: 2019/4/16
  */
